@@ -1,0 +1,29 @@
+- 공백(\t)와 줄바꿈(\n)
+
+
+
+
+- 파일 받기
+  let input = require('fs').readFileSync('input14681.txt').toString()
+
+
+  const readline = require("readline");
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+
+
+
+
+
+
+
+- fs모듈에 런타임에라가 나면 readline모듈을 쓰는것을 추천
+
+- 배열을 split하면 계속 나눠진 배열 뒤에 \r이 붙는게 보이는데 
+   if(yes[yes.length-1]==='\r'){
+        yes.pop()
+    }
+  하면 됨 
