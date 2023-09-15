@@ -13,7 +13,7 @@
     output: process.stdout
   });
 
-
+- 파일
 
 
 
